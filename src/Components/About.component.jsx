@@ -103,9 +103,9 @@ const About = ({ history }) => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1, transition: { duration: 1, delay: 1 } }}
           >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda sit sunt, distinctio quasi illum aperiam ex autem placeat nesciunt vero mollitia maxime officia iure accusamus temporibus ratione aspernatur. Sequi aperiam quas temporibus <br /> <br />
-            debitis aliquam placeat dolor hic magni eveniet perspiciatis quidem dolorum voluptatibus modi, nam consectetur. Cumque eveniet ab, harum explicabo incidunt eius asperiores alias porro beatae excepturi dolorem, vitae possimus fugiat quae officia sequi<br /> <br />
-            vel non maxime, perspiciatis expedita temporibus enim sed quisquam magni? Impedit in eum soluta doloremque et consequatur incidunt quidem ea itaque sapiente, hic neque porro provident illum dolores nisi magni laboriosam minima! Perspiciatis, dicta saepe.
+            I'm a front-end developer from Nigeria. My coding career began in 2018 when a friend introduced me to front-end programming, and it has enthralled me ever since I wrote my first "Hello, World" in HTML and saw it displayed in the browser. <br /> <br />
+            Being self-taught is difficult and frustrating, and the scariest part for me when I first started was coming face to face with a problem that I couldn't solve and couldn't move forward because of. But, over time, I always figured things out, even if it took me days and multiple attempts. I appreciated the challenge, and it kept me motivated throughout my career as a developer.<br /> <br />
+            Web programming is an interest of mine. It allows me to push myself and apply a combination of technologies and creativity. I enjoy the ability to see results immediately and the never-ending learning process.
           </Main>
           <BackgroundTitle text='ABOUT MOI' top='7%' right='3%' />
         </Box>

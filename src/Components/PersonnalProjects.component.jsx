@@ -27,7 +27,7 @@ const Main = styled(motion.ul)`
   color: white;
 
   ${mediaQueries(50)`
-     left:calc(8rem + 15vw);
+     left:calc(5rem + 15vw);
   `};
 
   ${mediaQueries(40)`
@@ -75,7 +75,7 @@ const container = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.5,
+      staggerChildren: 0.8,
       duration: 0.5
     }
   }

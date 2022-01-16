@@ -60,7 +60,7 @@ const SKILLS = styled(NavLink)`
 
   @media only screen and (max-width: 50em) {
     text-shadow: ${(props) => (props.click ? "0 0 4px #000" : "none")};
-    color: white;
+    color: ${props => props.click ? props.theme.body : props.theme.text};
   }
 `;
 const ABOUT = styled(NavLink)`
