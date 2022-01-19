@@ -41,7 +41,7 @@ const Main = styled(motion.div)`
   color: ${props => props.theme.text};
   padding: 2rem;
   width: 60vw;
-  height: 80vh;
+  height: auto;
   z-index: 1000;
   line-height: 1.5;
   display: flex;
@@ -56,15 +56,13 @@ const Main = styled(motion.div)`
 
   ${mediaQueries(40)`
     width: 60vw;
-    height: 50vh;
     top:50%;
-    left:50%;
+    left:45%;
     transform:translate(-50%,-50%);
 
 
   `};
   ${mediaQueries(30)`
-      height: auto;
       backdrop-filter: none;
       margin-top:2rem;
 
@@ -80,7 +78,6 @@ ${mediaQueries(20)`
 const About = ({ history }) => {
 
   const handleClick = () => {
-    console.log('i clicked power');
     history.push('/')
   }
 
@@ -114,4 +111,4 @@ const About = ({ history }) => {
   )
 }
 
-export default About
+export default About 

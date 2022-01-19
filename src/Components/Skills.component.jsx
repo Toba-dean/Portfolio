@@ -139,7 +139,6 @@ const Description = styled.div`
 const Skills = ({ history }) => {
 
   const handleClick = () => {
-    console.log('i clicked power');
     history.push('/')
   }
 

@@ -2,7 +2,7 @@ export const Work = [
     {
         id:1,
         name:"NetFlix Clone",
-        description:"It is build with React JS, styledComponents for styling,reduxfor tate management, react-router linking between pages.This app uses axios to fetch movies from the movie database (tmdb) API.",
+        description:"It's developed with React JS, styledComponents for styling, Redux for state management, and react-router to link pages together. The movie database (tmdb) API is accessed by axios in this application to get movies that was used to populate the main page.",
         tags:["react", "redux", "axios", "react-router", "styledComponents"],
         
         demo:"https://the-clone-810ee5.netlify.app/",
@@ -11,7 +11,7 @@ export const Work = [
     {
         id:2,
         name:"Fear City E-Commerce",
-        description:"An e-commerce app developed using react and styled with Sass. It uses react-router for page routing, firebase authentication for user authentication.",
+        description:"An e-commerce app developed using react and styled with Sass. It uses react-router for page routing, firebase for user authentication, storing user data and for storing the shop data.",
         tags:["react","sass", "react-router"],
         
         demo:"https://fear-city-inc.netlify.app/",
@@ -21,7 +21,7 @@ export const Work = [
     {
         id:3,
         name:"Travel Guide",
-        description:"It was developed with react, material-UI, google-map-react, and the google map API, and it also uses the rapid API to get data for the hotels, attractions and restaurants in a certain location.",
+        description:"It was built using react, material-UI, google-map-react, and the Google Map API, as well as the rapid API to access data on hotels, attractions, and restaurants in a specific place.",
         tags:["react","api","material-ui"],
         
         demo:"https://tra-vel-74af71.netlify.app/",
@@ -29,19 +29,19 @@ export const Work = [
     },
     {
         id:4,
-        name:"Quiz App",
-        description:"A cool looking quiz app built using HTML, CSS and vanilla JavaScript.",
-        tags:["HTML","CSS","javaScript"],
+        name:"Tesla Clone",
+        description:"This app is based on the original tesla home page, it is built with react and styled with styled-component. It also uses redux for state management.",
+        tags:["react","styledComponent","redux"],
         
-        demo:"",
-        github:"https://github.com/Toba-dean/quiz-app"
+        demo:"https://the-tesla-clone96.netlify.app/",
+        github:"https://github.com/Toba-dean/Tesla-clone"
        
     },
     {
         id:5,
         name:"Adv & Tour App",
         description:"A simple landing page built with HTML, CSS and JavaScript, it is a cool looking website built from scratch using css flex-box and grid for layout and responsiveness.",
-        tags:["next.Js","redux","framer-motion"],
+        tags:["HTML","CSS","JavaScript"],
         
         demo:"",
         github:"https://github.com/Toba-dean/Adv-landing-page/tree/main/dist"
@@ -49,12 +49,12 @@ export const Work = [
     },
     {
         id:6,
-        name:"E-commerce App",
-        description:"A simple e-commerce site built with react, styled with styled-component, redux for state management and use material-ui.",
-        tags:["react","react-router","styledComponent", "redux"],
+        name:"Instagram Clone",
+        description:"React, tailwind CSS, context API, and react-router were used to create this Instagram clone app. It's built on the official Instagram app, but it doesn't contain all of the features; instead, it uses Firebase for user authentication and data storage.",
+        tags:["react","react-router","tailwind", "context-api"],
         
-        demo:"https://the-ecommerce.netlify.app/",
-        github:"https://github.com/Toba-dean/dean-s-commerce"
+        demo:"https://deansgram.netlify.app/login",
+        github:"https://github.com/Toba-dean/instagram-clone"
         
     },
     

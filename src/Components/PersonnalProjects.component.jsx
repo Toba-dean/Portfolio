@@ -14,9 +14,26 @@ const BackgroundTitle = lazy(() => import('../subcomponent/BackgroundTitle.compo
 
 const Box = styled(motion.div)`
   background-color: ${props => props.theme.body};
-  height: 280vh;
+  /* height: 280vh; */
   position: relative;
   overflow: hidden;
+
+  @media screen and (max-width: 350px) {
+    height: 380vh;
+  }
+  @media screen and (min-width: 351px) {
+    height: 370vh;
+  }
+  @media screen and (min-width: 1150px) {
+    height: 330vh;
+  }
+  @media screen and (min-width: 1350px) {
+    height: 300vh;
+  }
+  @media screen and (min-width: 1550px) {
+    height: 280vh;
+  }
+
 `;
 const Main = styled(motion.ul)`
   position: fixed;
