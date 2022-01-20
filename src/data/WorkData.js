@@ -39,12 +39,11 @@ export const Work = [
     },
     {
         id:5,
-        name:"Adv & Tour App",
-        description:"A simple landing page built with HTML, CSS and JavaScript, it is a cool looking website built from scratch using css flex-box and grid for layout and responsiveness.",
+        name:"Adv and Tours Landing Page",
+        description:"HTML, CSS, and JavaScript were used to create this visually appealing landing page. It's a responsive page that uses CSS grid and Flexbox to lay out the content.",
         tags:["HTML","CSS","JavaScript"],
-        
-        demo:"",
-        github:"https://github.com/Toba-dean/Adv-landing-page/tree/main/dist"
+    
+        github:"https://github.com/Toba-dean/Adv-landing-page"
         
     },
     {
@@ -53,7 +52,7 @@ export const Work = [
         description:"React, tailwind CSS, context API, and react-router were used to create this Instagram clone app. It's built on the official Instagram app, but it doesn't contain all of the features; instead, it uses Firebase for user authentication and data storage.",
         tags:["react","react-router","tailwind", "context-api"],
         
-        demo:"https://deansgram.netlify.app/login",
+        demo:"https://deansgram.netlify.app/",
         github:"https://github.com/Toba-dean/instagram-clone"
         
     },

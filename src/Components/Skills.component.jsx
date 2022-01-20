@@ -60,7 +60,7 @@ const Main = styled(motion.div)`
   `};
 
   ${mediaQueries(50)`
-      width: 50vw;
+      width: 70vw;
       height: max-content;
   `};
 

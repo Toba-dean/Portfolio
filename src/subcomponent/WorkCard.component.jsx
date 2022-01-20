@@ -97,7 +97,9 @@ const WorkCard = ({ name, description, tags, demo, github, id }) => {
         }
       </Tags>
       <Footer>
-        <Link to={{pathname: `${demo}`}} target='_blank'>Visit</Link>
+        {
+          demo && <Link to={{pathname: `${demo}`}} target='_blank'>Visit</Link>
+        }
         <Git to={{pathname: `${github}`}} target='_blank'>
           <Github width={30} height={30} />
         </Git>
